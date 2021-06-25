@@ -1,0 +1,88 @@
+.container {
+    background: whitesmoke;
+    height: 650px;
+    width: 900px;
+}
+.header > h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 14px;
+}
+.header > p {
+    margin-left: 300px;
+    height: 4px;
+    width: 90px;
+    border-top: 5px solid lightblue;
+}
+.innerContainer {
+    width: 650px;
+    height: 440px;
+    background: white;
+    text-align: center;
+    margin: 100px 0 0 70px;
+}
+.innerItem > div {
+    width: 180px;
+    height: 130px;
+    background: blue;
+    padding-top: 25px;
+    margin-left: 220px;
+    margin-top: 15px;
+    border: 1px solid black;
+    /* border-radius: 50%; */
+}
+.innerItem {
+    padding-top: 5px;
+}
+.innerItem > div {
+    padding-bottom: 35px;
+}
+.job {
+    font-size: 13px;
+    font-family: serif;
+    color: blue;
+}
+.name {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+.btn {
+    border: 2px solid lightblue;
+    background: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: serif;
+    padding: 4px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    /* padding: 8px 16px; */
+    margin-bottom: 12px;
+    
+}
+a:hover{
+    background: #ddd;
+    color: black;
+}
+.previous {
+    background: #f1f1f1;
+    color: black;
+    font-size: 18px;
+}
+.next {
+    background: #04AA6D;
+    color: white;
+    font-size: 18px;
+}
+.round {
+    border-radius: 50%;
+}
+.img {
+    border-radius: 50%;
+}
+.fit-picture {
+    width: 100px;
+}
